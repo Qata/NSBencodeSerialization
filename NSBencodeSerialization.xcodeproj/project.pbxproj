@@ -10,23 +10,8 @@
 		23A8686718BF2FE20066E383 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A8686618BF2FE20066E383 /* Foundation.framework */; };
 		23A8686C18BF2FE20066E383 /* NSBencodeSerialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 23A8686B18BF2FE20066E383 /* NSBencodeSerialization.h */; };
 		23A8686E18BF2FE20066E383 /* NSBencodeSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A8686D18BF2FE20066E383 /* NSBencodeSerialization.m */; };
-		23A8687518BF2FE20066E383 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A8687418BF2FE20066E383 /* XCTest.framework */; };
-		23A8687618BF2FE20066E383 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A8686618BF2FE20066E383 /* Foundation.framework */; };
-		23A8687818BF2FE20066E383 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A8687718BF2FE20066E383 /* UIKit.framework */; };
-		23A8687B18BF2FE20066E383 /* libNSBencodeSerialization.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A8686318BF2FE20066E383 /* libNSBencodeSerialization.a */; };
-		23A8688118BF2FE20066E383 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23A8687F18BF2FE20066E383 /* InfoPlist.strings */; };
-		23A8688318BF2FE20066E383 /* NSBencodeSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A8688218BF2FE20066E383 /* NSBencodeSerializationTests.m */; };
+		23A8689118BF30400066E383 /* NSOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A8689018BF30400066E383 /* NSOrderedDictionary.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		23A8687918BF2FE20066E383 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 23A8685B18BF2FE20066E383 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 23A8686218BF2FE20066E383;
-			remoteInfo = NSBencodeSerialization;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		23A8686118BF2FE20066E383 /* CopyFiles */ = {
@@ -47,12 +32,13 @@
 		23A8686A18BF2FE20066E383 /* NSBencodeSerialization-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBencodeSerialization-Prefix.pch"; sourceTree = "<group>"; };
 		23A8686B18BF2FE20066E383 /* NSBencodeSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSBencodeSerialization.h; sourceTree = "<group>"; };
 		23A8686D18BF2FE20066E383 /* NSBencodeSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSBencodeSerialization.m; sourceTree = "<group>"; };
-		23A8687318BF2FE20066E383 /* NSBencodeSerializationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSBencodeSerializationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A8687418BF2FE20066E383 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		23A8687718BF2FE20066E383 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		23A8687E18BF2FE20066E383 /* NSBencodeSerializationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSBencodeSerializationTests-Info.plist"; sourceTree = "<group>"; };
 		23A8688018BF2FE20066E383 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		23A8688218BF2FE20066E383 /* NSBencodeSerializationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSBencodeSerializationTests.m; sourceTree = "<group>"; };
+		23A8688F18BF30400066E383 /* NSOrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOrderedDictionary.h; sourceTree = "<group>"; };
+		23A8689018BF30400066E383 /* NSOrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOrderedDictionary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,17 +47,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				23A8686718BF2FE20066E383 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23A8687018BF2FE20066E383 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23A8687B18BF2FE20066E383 /* libNSBencodeSerialization.a in Frameworks */,
-				23A8687518BF2FE20066E383 /* XCTest.framework in Frameworks */,
-				23A8687818BF2FE20066E383 /* UIKit.framework in Frameworks */,
-				23A8687618BF2FE20066E383 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				23A8686318BF2FE20066E383 /* libNSBencodeSerialization.a */,
-				23A8687318BF2FE20066E383 /* NSBencodeSerializationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,6 +84,8 @@
 		23A8686818BF2FE20066E383 /* NSBencodeSerialization */ = {
 			isa = PBXGroup;
 			children = (
+				23A8688F18BF30400066E383 /* NSOrderedDictionary.h */,
+				23A8689018BF30400066E383 /* NSOrderedDictionary.m */,
 				23A8686B18BF2FE20066E383 /* NSBencodeSerialization.h */,
 				23A8686D18BF2FE20066E383 /* NSBencodeSerialization.m */,
 				23A8686918BF2FE20066E383 /* Supporting Files */,
@@ -163,24 +139,6 @@
 			productReference = 23A8686318BF2FE20066E383 /* libNSBencodeSerialization.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		23A8687218BF2FE20066E383 /* NSBencodeSerializationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 23A8688918BF2FE20066E383 /* Build configuration list for PBXNativeTarget "NSBencodeSerializationTests" */;
-			buildPhases = (
-				23A8686F18BF2FE20066E383 /* Sources */,
-				23A8687018BF2FE20066E383 /* Frameworks */,
-				23A8687118BF2FE20066E383 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				23A8687A18BF2FE20066E383 /* PBXTargetDependency */,
-			);
-			name = NSBencodeSerializationTests;
-			productName = NSBencodeSerializationTests;
-			productReference = 23A8687318BF2FE20066E383 /* NSBencodeSerializationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -203,48 +161,21 @@
 			projectRoot = "";
 			targets = (
 				23A8686218BF2FE20066E383 /* NSBencodeSerialization */,
-				23A8687218BF2FE20066E383 /* NSBencodeSerializationTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		23A8687118BF2FE20066E383 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23A8688118BF2FE20066E383 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		23A8685F18BF2FE20066E383 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23A8689118BF30400066E383 /* NSOrderedDictionary.m in Sources */,
 				23A8686E18BF2FE20066E383 /* NSBencodeSerialization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23A8686F18BF2FE20066E383 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23A8688318BF2FE20066E383 /* NSBencodeSerializationTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		23A8687A18BF2FE20066E383 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 23A8686218BF2FE20066E383 /* NSBencodeSerialization */;
-			targetProxy = 23A8687918BF2FE20066E383 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		23A8687F18BF2FE20066E383 /* InfoPlist.strings */ = {
@@ -352,44 +283,6 @@
 			};
 			name = Release;
 		};
-		23A8688A18BF2FE20066E383 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSBencodeSerialization/NSBencodeSerialization-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "NSBencodeSerializationTests/NSBencodeSerializationTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		23A8688B18BF2FE20066E383 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSBencodeSerialization/NSBencodeSerialization-Prefix.pch";
-				INFOPLIST_FILE = "NSBencodeSerializationTests/NSBencodeSerializationTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -407,14 +300,6 @@
 			buildConfigurations = (
 				23A8688718BF2FE20066E383 /* Debug */,
 				23A8688818BF2FE20066E383 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		23A8688918BF2FE20066E383 /* Build configuration list for PBXNativeTarget "NSBencodeSerializationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				23A8688A18BF2FE20066E383 /* Debug */,
-				23A8688B18BF2FE20066E383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
