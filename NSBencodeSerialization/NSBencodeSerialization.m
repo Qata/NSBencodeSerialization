@@ -7,7 +7,7 @@
 //
 
 #import "NSBencodeSerialization.h"
-#import "NSOrderedDictionary.h"
+#import "M13OrderedDictionary.h"
 
 @implementation NSBencodeSerialization
 
@@ -74,7 +74,7 @@
     return retVal;
 }
 
-+ (NSOrderedDictionary *)bencodedDictionaryWithData:(NSData *)data startingAt:(uint64_t *)start error:(NSError *__autoreleasing *)error
++ (M13OrderedDictionary *)bencodedDictionaryWithData:(NSData *)data startingAt:(uint64_t *)start error:(NSError *__autoreleasing *)error
 {
     ++*start;
     NSMutableOrderedDictionary * dict = NSMutableOrderedDictionary.new;
